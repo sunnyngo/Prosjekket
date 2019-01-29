@@ -1,0 +1,9 @@
+Binding on line 3: INTEGER was declared in the library.
+Binding on line 3: CHAR was declared in the library.
+Binding on line 5: WRITE was declared in the library.
+Binding on line 5: A was declared as <paramDecl> A on line 3
+Type check Param # 1 on line 5: type Integer vs type Integer
+Binding on line 5: EOL was declared in the library.
+Type check Param # 2 on line 5: type Char vs type Char
+Binding on line 9: P was declared as <procDecl> P on line 3
+Error in line 9: Too few parameters in call on p!

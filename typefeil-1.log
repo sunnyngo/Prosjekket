@@ -1,0 +1,4 @@
+Binding on line 2: CHAR was declared in the library.
+Binding on line 4: C was declared as <varDecl> C on line 2
+Type check := on line 4: type Char vs type Integer
+Error at line 4: Different types in assignment!

@@ -1,0 +1,14 @@
+Binding on line 2: INTEGER was declared in the library.
+Binding on line 5: BOOLEAN was declared in the library.
+Binding on line 7: V was declared as <varDecl> V on line 5
+Binding on line 7: X was declared as <varDecl> X on line 2
+Type check <Expression>  on line 7 on line 7: type Integer vs type Integer
+Type check := on line 7: type Boolean vs type Boolean
+Binding on line 11: P was declared as <procDecl> P on line 4
+Binding on line 12: WRITE was declared in the library.
+Type check Param # 1 on line 12: type Char vs type Char
+Type check Param # 2 on line 12: type Char vs type Char
+Binding on line 12: V was declared as <varDecl> V on line 5
+Type check Param # 3 on line 12: type Boolean vs type Boolean
+Binding on line 12: EOL was declared in the library.
+Type check Param # 4 on line 12: type Char vs type Char

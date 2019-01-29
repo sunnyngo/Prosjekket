@@ -1,0 +1,7 @@
+Binding on line 3: INTEGER was declared in the library.
+Binding on line 3: INTEGER was declared in the library.
+Binding on line 5: A was declared as <paramDecl> A on line 3
+Type check <Expression>  on line 5 on line 5: type Integer vs type Integer
+Binding on line 6: F was declared as <FuncDecl> F on line 3
+Type check := on line 6: type Integer vs type Char
+Error at line 6: Different types in assignment!

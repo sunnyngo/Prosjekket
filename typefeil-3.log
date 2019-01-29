@@ -1,0 +1,14 @@
+Binding on line 3: INTEGER was declared in the library.
+Binding on line 3: CHAR was declared in the library.
+Binding on line 5: A was declared as <paramDecl> A on line 3
+Type check <Expression>  on line 5 on line 5: type Integer vs type Integer
+Binding on line 6: F was declared as <FuncDecl> F on line 3
+Type check := on line 6: type Char vs type Char
+Binding on line 8: F was declared as <FuncDecl> F on line 3
+Type check := on line 8: type Char vs type Char
+Type check <if statm>  on line 5 on line 5: type Boolean vs type Boolean
+Binding on line 12: WRITE was declared in the library.
+Binding on line 12: F was declared as <FuncDecl> F on line 3
+Type check Param # 1 on line 12: type Integer vs type Integer
+Type check <simple expr>  on line 12 on line 12: type Char vs type Integer
+Error at line 12: Left operand to + is not a number! 

@@ -1,0 +1,228 @@
+Binding on line 6: BOOLEAN was declared in the library.
+Binding on line 8: WRITE was declared in the library.
+Type check Param # 1 on line 8: type Char vs type Char
+Type check Param # 2 on line 8: type Char vs type Char
+Type check Param # 3 on line 8: type Char vs type Char
+Type check Param # 4 on line 8: type Char vs type Char
+Binding on line 8: X was declared as <paramDecl> X on line 6
+Type check Param # 5 on line 8: type Boolean vs type Boolean
+Type check Param # 6 on line 8: type Char vs type Char
+Type check Param # 7 on line 8: type Char vs type Char
+Type check Param # 8 on line 8: type Char vs type Char
+Binding on line 8: X was declared as <paramDecl> X on line 6
+Type check Param # 9 on line 8: type Boolean vs type Boolean
+Binding on line 8: EOL was declared in the library.
+Type check Param # 10 on line 8: type Char vs type Char
+Binding on line 12: TEST was declared as <procDecl> TEST on line 6
+Binding on line 12: FALSE was declared in the library.
+Type check Param # 1 on line 12: type Boolean vs type Boolean
+Binding on line 12: TEST was declared as <procDecl> TEST on line 6
+Binding on line 12: TRUE was declared in the library.
+Type check Param # 1 on line 12: type Boolean vs type Boolean
+Binding on line 18: BOOLEAN was declared in the library.
+Binding on line 18: BOOLEAN was declared in the library.
+Binding on line 20: WRITE was declared in the library.
+Binding on line 20: X was declared as <paramDecl> X on line 18
+Type check Param # 1 on line 20: type Boolean vs type Boolean
+Type check Param # 2 on line 20: type Char vs type Char
+Type check Param # 3 on line 20: type Char vs type Char
+Type check Param # 4 on line 20: type Char vs type Char
+Type check Param # 5 on line 20: type Char vs type Char
+Type check Param # 6 on line 20: type Char vs type Char
+Binding on line 20: Y was declared as <paramDecl> Y on line 18
+Type check Param # 7 on line 20: type Boolean vs type Boolean
+Type check Param # 8 on line 20: type Char vs type Char
+Type check Param # 9 on line 20: type Char vs type Char
+Type check Param # 10 on line 20: type Char vs type Char
+Binding on line 20: X was declared as <paramDecl> X on line 18
+Binding on line 20: Y was declared as <paramDecl> Y on line 18
+Type check Param # 11 on line 20: type Boolean vs type Boolean
+Binding on line 20: EOL was declared in the library.
+Type check Param # 12 on line 20: type Char vs type Char
+Binding on line 21: WRITE was declared in the library.
+Binding on line 21: X was declared as <paramDecl> X on line 18
+Type check Param # 1 on line 21: type Boolean vs type Boolean
+Type check Param # 2 on line 21: type Char vs type Char
+Type check Param # 3 on line 21: type Char vs type Char
+Type check Param # 4 on line 21: type Char vs type Char
+Type check Param # 5 on line 21: type Char vs type Char
+Binding on line 21: Y was declared as <paramDecl> Y on line 18
+Type check Param # 6 on line 21: type Boolean vs type Boolean
+Type check Param # 7 on line 21: type Char vs type Char
+Type check Param # 8 on line 21: type Char vs type Char
+Type check Param # 9 on line 21: type Char vs type Char
+Binding on line 21: EOL was declared in the library.
+Type check Param # 10 on line 21: type Char vs type Char
+Binding on line 25: TEST was declared as <procDecl> TEST on line 18
+Binding on line 25: FALSE was declared in the library.
+Type check Param # 1 on line 25: type Boolean vs type Boolean
+Binding on line 25: FALSE was declared in the library.
+Type check Param # 2 on line 25: type Boolean vs type Boolean
+Binding on line 25: TEST was declared as <procDecl> TEST on line 18
+Binding on line 25: FALSE was declared in the library.
+Type check Param # 1 on line 25: type Boolean vs type Boolean
+Binding on line 25: TRUE was declared in the library.
+Type check Param # 2 on line 25: type Boolean vs type Boolean
+Binding on line 26: TEST was declared as <procDecl> TEST on line 18
+Binding on line 26: TRUE was declared in the library.
+Type check Param # 1 on line 26: type Boolean vs type Boolean
+Binding on line 26: FALSE was declared in the library.
+Type check Param # 2 on line 26: type Boolean vs type Boolean
+Binding on line 26: TEST was declared as <procDecl> TEST on line 18
+Binding on line 26: TRUE was declared in the library.
+Type check Param # 1 on line 26: type Boolean vs type Boolean
+Binding on line 26: TRUE was declared in the library.
+Type check Param # 2 on line 26: type Boolean vs type Boolean
+Binding on line 32: INTEGER was declared in the library.
+Binding on line 34: WRITE was declared in the library.
+Type check Param # 1 on line 34: type Char vs type Char
+Type check Param # 2 on line 34: type Char vs type Char
+Binding on line 34: X was declared as <paramDecl> X on line 32
+Type check Param # 3 on line 34: type Integer vs type Integer
+Type check Param # 4 on line 34: type Char vs type Char
+Type check Param # 5 on line 34: type Char vs type Char
+Type check Param # 6 on line 34: type Char vs type Char
+Binding on line 34: X was declared as <paramDecl> X on line 32
+Type check Param # 7 on line 34: type Integer vs type Integer
+Binding on line 34: EOL was declared in the library.
+Type check Param # 8 on line 34: type Char vs type Char
+Binding on line 35: WRITE was declared in the library.
+Type check Param # 1 on line 35: type Char vs type Char
+Type check Param # 2 on line 35: type Char vs type Char
+Binding on line 35: X was declared as <paramDecl> X on line 32
+Type check Param # 3 on line 35: type Integer vs type Integer
+Type check Param # 4 on line 35: type Char vs type Char
+Type check Param # 5 on line 35: type Char vs type Char
+Type check Param # 6 on line 35: type Char vs type Char
+Binding on line 35: X was declared as <paramDecl> X on line 32
+Type check Param # 7 on line 35: type Integer vs type Integer
+Binding on line 35: EOL was declared in the library.
+Type check Param # 8 on line 35: type Char vs type Char
+Binding on line 39: TEST was declared as <procDecl> TEST on line 32
+Type check Param # 1 on line 39: type Integer vs type Integer
+Binding on line 39: TEST was declared as <procDecl> TEST on line 32
+Type check Param # 1 on line 39: type Integer vs type Integer
+Binding on line 39: TEST was declared as <procDecl> TEST on line 32
+Type check Param # 1 on line 39: type Integer vs type Integer
+Binding on line 45: INTEGER was declared in the library.
+Binding on line 45: INTEGER was declared in the library.
+Binding on line 47: WRITE was declared in the library.
+Binding on line 47: X was declared as <paramDecl> X on line 45
+Type check Param # 1 on line 47: type Integer vs type Integer
+Type check Param # 2 on line 47: type Char vs type Char
+Type check Param # 3 on line 47: type Char vs type Char
+Type check Param # 4 on line 47: type Char vs type Char
+Binding on line 47: Y was declared as <paramDecl> Y on line 45
+Type check Param # 5 on line 47: type Integer vs type Integer
+Type check Param # 6 on line 47: type Char vs type Char
+Type check Param # 7 on line 47: type Char vs type Char
+Type check Param # 8 on line 47: type Char vs type Char
+Binding on line 47: X was declared as <paramDecl> X on line 45
+Type check <simple expr>  on line 47 on line 47: type Integer vs type Integer
+Binding on line 47: Y was declared as <paramDecl> Y on line 45
+Type check Param # 9 on line 47: type Integer vs type Integer
+Binding on line 47: EOL was declared in the library.
+Type check Param # 10 on line 47: type Char vs type Char
+Binding on line 48: WRITE was declared in the library.
+Binding on line 48: X was declared as <paramDecl> X on line 45
+Type check Param # 1 on line 48: type Integer vs type Integer
+Type check Param # 2 on line 48: type Char vs type Char
+Type check Param # 3 on line 48: type Char vs type Char
+Type check Param # 4 on line 48: type Char vs type Char
+Binding on line 48: Y was declared as <paramDecl> Y on line 45
+Type check Param # 5 on line 48: type Integer vs type Integer
+Type check Param # 6 on line 48: type Char vs type Char
+Type check Param # 7 on line 48: type Char vs type Char
+Type check Param # 8 on line 48: type Char vs type Char
+Binding on line 48: X was declared as <paramDecl> X on line 45
+Type check <simple expr>  on line 48 on line 48: type Integer vs type Integer
+Binding on line 48: Y was declared as <paramDecl> Y on line 45
+Type check Param # 9 on line 48: type Integer vs type Integer
+Binding on line 48: EOL was declared in the library.
+Type check Param # 10 on line 48: type Char vs type Char
+Binding on line 49: WRITE was declared in the library.
+Binding on line 49: X was declared as <paramDecl> X on line 45
+Type check Param # 1 on line 49: type Integer vs type Integer
+Type check Param # 2 on line 49: type Char vs type Char
+Type check Param # 3 on line 49: type Char vs type Char
+Type check Param # 4 on line 49: type Char vs type Char
+Binding on line 49: Y was declared as <paramDecl> Y on line 45
+Type check Param # 5 on line 49: type Integer vs type Integer
+Type check Param # 6 on line 49: type Char vs type Char
+Type check Param # 7 on line 49: type Char vs type Char
+Type check Param # 8 on line 49: type Char vs type Char
+Binding on line 49: X was declared as <paramDecl> X on line 45
+Binding on line 49: Y was declared as <paramDecl> Y on line 45
+Type check Param # 9 on line 49: type Integer vs type Integer
+Binding on line 49: EOL was declared in the library.
+Type check Param # 10 on line 49: type Char vs type Char
+Binding on line 50: Y was declared as <paramDecl> Y on line 45
+Type check <Expression>  on line 50 on line 50: type Integer vs type Integer
+Binding on line 51: WRITE was declared in the library.
+Binding on line 51: X was declared as <paramDecl> X on line 45
+Type check Param # 1 on line 51: type Integer vs type Integer
+Type check Param # 2 on line 51: type Char vs type Char
+Type check Param # 3 on line 51: type Char vs type Char
+Type check Param # 4 on line 51: type Char vs type Char
+Type check Param # 5 on line 51: type Char vs type Char
+Type check Param # 6 on line 51: type Char vs type Char
+Binding on line 51: Y was declared as <paramDecl> Y on line 45
+Type check Param # 7 on line 51: type Integer vs type Integer
+Type check Param # 8 on line 51: type Char vs type Char
+Type check Param # 9 on line 51: type Char vs type Char
+Type check Param # 10 on line 51: type Char vs type Char
+Binding on line 51: X was declared as <paramDecl> X on line 45
+Binding on line 51: Y was declared as <paramDecl> Y on line 45
+Type check Param # 11 on line 51: type Integer vs type Integer
+Binding on line 51: EOL was declared in the library.
+Type check Param # 12 on line 51: type Char vs type Char
+Binding on line 52: WRITE was declared in the library.
+Binding on line 52: X was declared as <paramDecl> X on line 45
+Type check Param # 1 on line 52: type Integer vs type Integer
+Type check Param # 2 on line 52: type Char vs type Char
+Type check Param # 3 on line 52: type Char vs type Char
+Type check Param # 4 on line 52: type Char vs type Char
+Type check Param # 5 on line 52: type Char vs type Char
+Type check Param # 6 on line 52: type Char vs type Char
+Binding on line 52: Y was declared as <paramDecl> Y on line 45
+Type check Param # 7 on line 52: type Integer vs type Integer
+Type check Param # 8 on line 52: type Char vs type Char
+Type check Param # 9 on line 52: type Char vs type Char
+Type check Param # 10 on line 52: type Char vs type Char
+Binding on line 52: X was declared as <paramDecl> X on line 45
+Binding on line 52: Y was declared as <paramDecl> Y on line 45
+Type check Param # 11 on line 52: type Integer vs type Integer
+Binding on line 52: EOL was declared in the library.
+Type check Param # 12 on line 52: type Char vs type Char
+Type check <if statm>  on line 50 on line 50: type Boolean vs type Boolean
+Binding on line 57: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 57: type Integer vs type Integer
+Type check Param # 2 on line 57: type Integer vs type Integer
+Binding on line 57: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 57: type Integer vs type Integer
+Type check Param # 2 on line 57: type Integer vs type Integer
+Binding on line 57: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 57: type Integer vs type Integer
+Type check Param # 2 on line 57: type Integer vs type Integer
+Binding on line 58: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 58: type Integer vs type Integer
+Type check Param # 2 on line 58: type Integer vs type Integer
+Binding on line 58: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 58: type Integer vs type Integer
+Type check Param # 2 on line 58: type Integer vs type Integer
+Binding on line 58: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 58: type Integer vs type Integer
+Type check Param # 2 on line 58: type Integer vs type Integer
+Binding on line 59: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 59: type Integer vs type Integer
+Type check Param # 2 on line 59: type Integer vs type Integer
+Binding on line 59: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 59: type Integer vs type Integer
+Type check Param # 2 on line 59: type Integer vs type Integer
+Binding on line 59: TEST was declared as <procDecl> TEST on line 45
+Type check Param # 1 on line 59: type Integer vs type Integer
+Type check Param # 2 on line 59: type Integer vs type Integer
+Binding on line 64: TESTUNARYBOOLEAN was declared as <procDecl> TESTUNARYBOOLEAN on line 4
+Binding on line 64: TESTUNARYNUMERIC was declared as <procDecl> TESTUNARYNUMERIC on line 30
+Binding on line 65: TESTBINARYBOOLEAN was declared as <procDecl> TESTBINARYBOOLEAN on line 16
+Binding on line 65: TESTBINARYNUMERIC was declared as <procDecl> TESTBINARYNUMERIC on line 43

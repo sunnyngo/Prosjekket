@@ -1,0 +1,3 @@
+Binding on line 3: INTEGER was declared in the library.
+Binding on line 5: SIZE was declared as <constDecl> SIZE on line 2
+Error at line 5: You cannot assign to a constant.

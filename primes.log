@@ -1,0 +1,101 @@
+Binding on line 9: LIMIT was declared as <constDecl> LIMIT on line 7
+Binding on line 9: BOOLEAN was declared in the library.
+Binding on line 10: INTEGER was declared in the library.
+Binding on line 13: INTEGER was declared in the library.
+Binding on line 14: INTEGER was declared in the library.
+Binding on line 16: I1 was declared as <varDecl> I1 on line 13
+Type check := on line 16: type Integer vs type Integer
+Binding on line 17: I1 was declared as <varDecl> I1 on line 13
+Binding on line 17: LIMIT was declared as <constDecl> LIMIT on line 7
+Type check <Expression>  on line 17 on line 17: type Integer vs type Integer
+Type check <While>  on line 17 on line 17: type Boolean vs type Boolean
+Binding on line 19: I2 was declared as <varDecl> I2 on line 14
+Binding on line 19: I1 was declared as <varDecl> I1 on line 13
+Type check := on line 19: type Integer vs type Integer
+Binding on line 20: I2 was declared as <varDecl> I2 on line 14
+Binding on line 20: LIMIT was declared as <constDecl> LIMIT on line 7
+Type check <Expression>  on line 20 on line 20: type Integer vs type Integer
+Type check <While>  on line 20 on line 20: type Boolean vs type Boolean
+Binding on line 22: PRIME was declared as <varDecl> PRIME on line 9
+Binding on line 22: I2 was declared as <varDecl> I2 on line 14
+Binding on line 22: FALSE was declared in the library.
+Type check := on line 22: type Boolean vs type Boolean
+Binding on line 23: I2 was declared as <varDecl> I2 on line 14
+Binding on line 23: I2 was declared as <varDecl> I2 on line 14
+Type check <simple expr>  on line 23 on line 23: type Integer vs type Integer
+Binding on line 23: I1 was declared as <varDecl> I1 on line 13
+Type check := on line 23: type Integer vs type Integer
+Binding on line 25: I1 was declared as <varDecl> I1 on line 13
+Binding on line 25: I1 was declared as <varDecl> I1 on line 13
+Type check <simple expr>  on line 25 on line 25: type Integer vs type Integer
+Type check := on line 25: type Integer vs type Integer
+Binding on line 29: INTEGER was declared in the library.
+Binding on line 31: X was declared as <paramDecl> X on line 29
+Type check <Expression>  on line 31 on line 31: type Integer vs type Integer
+Binding on line 31: WRITE was declared in the library.
+Type check Param # 1 on line 31: type Char vs type Char
+Type check <if statm>  on line 31 on line 31: type Boolean vs type Boolean
+Binding on line 32: X was declared as <paramDecl> X on line 29
+Type check <Expression>  on line 32 on line 32: type Integer vs type Integer
+Binding on line 32: WRITE was declared in the library.
+Type check Param # 1 on line 32: type Char vs type Char
+Type check <if statm>  on line 32 on line 32: type Boolean vs type Boolean
+Binding on line 33: X was declared as <paramDecl> X on line 29
+Type check <Expression>  on line 33 on line 33: type Integer vs type Integer
+Binding on line 33: WRITE was declared in the library.
+Type check Param # 1 on line 33: type Char vs type Char
+Type check <if statm>  on line 33 on line 33: type Boolean vs type Boolean
+Binding on line 34: WRITE was declared in the library.
+Binding on line 34: X was declared as <paramDecl> X on line 29
+Type check Param # 1 on line 34: type Integer vs type Integer
+Binding on line 38: INTEGER was declared in the library.
+Binding on line 39: INTEGER was declared in the library.
+Binding on line 41: I was declared as <varDecl> I on line 38
+Type check := on line 41: type Integer vs type Integer
+Binding on line 41: NPRINTED was declared as <varDecl> NPRINTED on line 39
+Type check := on line 41: type Integer vs type Integer
+Binding on line 42: I was declared as <varDecl> I on line 38
+Binding on line 42: LIMIT was declared as <constDecl> LIMIT on line 7
+Type check <Expression>  on line 42 on line 42: type Integer vs type Integer
+Type check <While>  on line 42 on line 42: type Boolean vs type Boolean
+Binding on line 44: PRIME was declared as <varDecl> PRIME on line 9
+Binding on line 44: I was declared as <varDecl> I on line 38
+Binding on line 46: NPRINTED was declared as <varDecl> NPRINTED on line 39
+Type check <Expression>  on line 46 on line 46: type Integer vs type Integer
+Binding on line 46: NPRINTED was declared as <varDecl> NPRINTED on line 39
+Type check <Expression>  on line 46 on line 46: type Integer vs type Integer
+Binding on line 46: WRITE was declared in the library.
+Binding on line 46: EOL was declared in the library.
+Type check Param # 1 on line 46: type Char vs type Char
+Type check <if statm>  on line 46 on line 46: type Boolean vs type Boolean
+Binding on line 47: P4 was declared as <procDecl> P4 on line 29
+Binding on line 47: I was declared as <varDecl> I on line 38
+Type check Param # 1 on line 47: type Integer vs type Integer
+Binding on line 47: NPRINTED was declared as <varDecl> NPRINTED on line 39
+Binding on line 47: NPRINTED was declared as <varDecl> NPRINTED on line 39
+Type check <simple expr>  on line 47 on line 47: type Integer vs type Integer
+Type check := on line 47: type Integer vs type Integer
+Type check <if statm>  on line 44 on line 44: type Boolean vs type Boolean
+Binding on line 49: I was declared as <varDecl> I on line 38
+Binding on line 49: I was declared as <varDecl> I on line 38
+Type check <simple expr>  on line 49 on line 49: type Integer vs type Integer
+Type check := on line 49: type Integer vs type Integer
+Binding on line 51: WRITE was declared in the library.
+Binding on line 51: EOL was declared in the library.
+Type check Param # 1 on line 51: type Char vs type Char
+Binding on line 55: I was declared as <varDecl> I on line 38
+Type check := on line 55: type Integer vs type Integer
+Binding on line 56: I was declared as <varDecl> I on line 38
+Binding on line 56: LIMIT was declared as <constDecl> LIMIT on line 7
+Type check <Expression>  on line 56 on line 56: type Integer vs type Integer
+Type check <While>  on line 56 on line 56: type Boolean vs type Boolean
+Binding on line 56: PRIME was declared as <varDecl> PRIME on line 9
+Binding on line 56: I was declared as <varDecl> I on line 38
+Binding on line 56: TRUE was declared in the library.
+Type check := on line 56: type Boolean vs type Boolean
+Binding on line 56: I was declared as <varDecl> I on line 38
+Binding on line 56: I was declared as <varDecl> I on line 38
+Type check <simple expr>  on line 56 on line 56: type Integer vs type Integer
+Type check := on line 56: type Integer vs type Integer
+Binding on line 59: FINDPRIMES was declared as <procDecl> FINDPRIMES on line 12
+Binding on line 59: PRINTPRIMES was declared as <procDecl> PRINTPRIMES on line 37

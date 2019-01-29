@@ -1,0 +1,13 @@
+Binding on line 2: INTEGER was declared in the library.
+Binding on line 4: INTEGER was declared in the library.
+Binding on line 4: INTEGER was declared in the library.
+Binding on line 6: DOBLE was declared as <FuncDecl> DOBLE on line 4
+Binding on line 6: V was declared as <paramDecl> V on line 4
+Type check := on line 6: type Integer vs type Integer
+Binding on line 6: X was declared as <varDecl> X on line 2
+Binding on line 6: X was declared as <varDecl> X on line 2
+Type check <simple expr>  on line 6 on line 6: type Integer vs type Integer
+Binding on line 6: V was declared as <paramDecl> V on line 4
+Type check := on line 6: type Integer vs type Integer
+Binding on line 10: DOBLE was declared as <FuncDecl> DOBLE on line 4
+Error at line 10: is a function, not a procedure.

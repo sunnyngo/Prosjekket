@@ -1,0 +1,4 @@
+Binding on line 4: INTEGER was declared in the library.
+Binding on line 6: X was declared as <varDecl> X on line 4
+Binding on line 7: WRITE was declared in the library.
+Type check Param # 0 on line 7: type Char vs type Char

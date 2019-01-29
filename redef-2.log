@@ -1,0 +1,28 @@
+Binding on line 2: INTEGER was declared in the library.
+Binding on line 4: INTEGER was declared in the library.
+Binding on line 6: WRITE was declared in the library.
+Binding on line 6: X was declared as <paramDecl> X on line 4
+Type check Param # 1 on line 6: type Integer vs type Integer
+Binding on line 9: CHAR was declared in the library.
+Binding on line 11: WRITE was declared in the library.
+Binding on line 11: X was declared as <paramDecl> X on line 9
+Type check Param # 1 on line 11: type Char vs type Char
+Binding on line 14: CHAR was declared in the library.
+Binding on line 14: INTEGER was declared in the library.
+Binding on line 16: WRITECHAR was declared as <procDecl> WRITECHAR on line 9
+Binding on line 16: C was declared as <paramDecl> C on line 14
+Type check Param # 1 on line 16: type Char vs type Char
+Binding on line 16: WRITECHAR was declared as <procDecl> WRITECHAR on line 9
+Type check Param # 1 on line 16: type Char vs type Char
+Binding on line 16: WRITEINT was declared as <procDecl> WRITEINT on line 4
+Binding on line 16: V was declared as <paramDecl> V on line 14
+Type check Param # 1 on line 16: type Integer vs type Integer
+Binding on line 16: WRITECHAR was declared as <procDecl> WRITECHAR on line 9
+Binding on line 16: EOL was declared in the library.
+Type check Param # 1 on line 16: type Char vs type Char
+Binding on line 20: X was declared as <varDecl> X on line 2
+Type check := on line 20: type Integer vs type Integer
+Binding on line 21: WRITE was declared as <procDecl> WRITE on line 14
+Type check Param # 1 on line 21: type Char vs type Char
+Binding on line 21: X was declared as <varDecl> X on line 2
+Type check Param # 2 on line 21: type Integer vs type Integer

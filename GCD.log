@@ -1,0 +1,41 @@
+Binding on line 8: INTEGER was declared in the library.
+Binding on line 10: INTEGER was declared in the library.
+Binding on line 10: INTEGER was declared in the library.
+Binding on line 10: INTEGER was declared in the library.
+Binding on line 12: N was declared as <paramDecl> N on line 10
+Type check <Expression>  on line 12 on line 12: type Integer vs type Integer
+Binding on line 13: GCD was declared as <FuncDecl> GCD on line 10
+Binding on line 13: M was declared as <paramDecl> M on line 10
+Type check := on line 13: type Integer vs type Integer
+Binding on line 15: GCD was declared as <FuncDecl> GCD on line 10
+Binding on line 15: GCD was declared as <FuncDecl> GCD on line 10
+Binding on line 15: N was declared as <paramDecl> N on line 10
+Type check Param # 1 on line 15: type Integer vs type Integer
+Binding on line 15: M was declared as <paramDecl> M on line 10
+Binding on line 15: N was declared as <paramDecl> N on line 10
+Type check Param # 2 on line 15: type Integer vs type Integer
+Type check := on line 15: type Integer vs type Integer
+Type check <if statm>  on line 12 on line 12: type Boolean vs type Boolean
+Binding on line 19: RES was declared as <varDecl> RES on line 8
+Binding on line 19: GCD was declared as <FuncDecl> GCD on line 10
+Binding on line 19: V1 was declared as <constDecl> V1 on line 6
+Type check Param # 1 on line 19: type Integer vs type Integer
+Binding on line 19: V2 was declared as <constDecl> V2 on line 6
+Type check Param # 2 on line 19: type Integer vs type Integer
+Type check := on line 19: type Integer vs type Integer
+Binding on line 20: WRITE was declared in the library.
+Type check Param # 1 on line 20: type Char vs type Char
+Type check Param # 2 on line 20: type Char vs type Char
+Type check Param # 3 on line 20: type Char vs type Char
+Type check Param # 4 on line 20: type Char vs type Char
+Binding on line 20: V1 was declared as <constDecl> V1 on line 6
+Type check Param # 5 on line 20: type Integer vs type Integer
+Type check Param # 6 on line 20: type Char vs type Char
+Binding on line 20: V2 was declared as <constDecl> V2 on line 6
+Type check Param # 7 on line 20: type Integer vs type Integer
+Type check Param # 8 on line 20: type Char vs type Char
+Type check Param # 9 on line 20: type Char vs type Char
+Binding on line 20: RES was declared as <varDecl> RES on line 8
+Type check Param # 10 on line 20: type Integer vs type Integer
+Binding on line 20: EOL was declared in the library.
+Type check Param # 11 on line 20: type Char vs type Char
