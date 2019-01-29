@@ -1,77 +1,34 @@
-package parser;
-import main.CodeFile;
-import main.Library;
-import main.Main;
-import scanner.Scanner;
-import scanner.TokenKind;
+package types;
 
-public class ArrayType extends PascalSyntax{
-	Type t;
-	Constant cFrom;
-	Constant cto;
-	types.Type type;
-	ArrayType(int n) {
-		super(n);
-	}
-	public String identify(){
-		return "<Array Type> "  + " on line " + lineNum;
-	}
-	
-	public static ArrayType parse(Scanner s){
-		enterParser("array type");
-		ArrayType art = new ArrayType(s.curLineNum());
-		s.skip(TokenKind.arrayToken);
-		s.skip(TokenKind.leftBracketToken);
-		art.cFrom = Constant.parse(s);
-		s.skip(TokenKind.rangeToken);
-		art.cto = Constant.parse(s);
-		s.skip(TokenKind.rightBracketToken);
-		s.skip(TokenKind.ofToken);
-		art.t = Type.parse(s);
-		leaveParser("array type");
-		return art;
-	}
-	public void prettyPrint(){
-		 Main.log.prettyPrint("array" + "[");
-		 cFrom.prettyPrint();
-	     Main.log.prettyPrint(" .. ");
-	     cto.prettyPrint();
-	     Main.log.prettyPrint("] of ");
-	     t.prettyPrint();
+import parser.PascalSyntax;
 
+public class ArrayType extends Type {
+    public Type elemType, indexType;
+    public int loLim, hiLim;
+
+    public ArrayType(Type e, Type i, int lo, int hi) {
+	elemType = e;  
+	indexType = i;  loLim = lo;  hiLim = hi;
+    }
+
+    @Override public String identify() {
+	return "type array [" + loLim + ".." + hiLim + ": " +
+	    indexType.identify() + "] of " + elemType.identify();
+    }
+
+    @Override public void checkType(Type tx, String op, 
+				    PascalSyntax where, String message) {
+	if (tx instanceof ArrayType) {
+	    ArrayType txa = (ArrayType)tx;
+	    indexType.checkType(txa.indexType, "array index", where, message);
+	    elemType.checkType(txa.elemType, op, where, message);
+	} else {
+	    where.error(message);
 	}
-	//det sjekker om 2 constant og type.
-	@Override
-	void check(Block curScope, Library lib) {
-		cFrom.check(curScope, lib);
-		cto.check(curScope, lib);
-		t.check(curScope, lib);
-		//System.out.println("type : "+t.type);
-		types.Type e = t.type;
-		
-		boolean cFromIsInt = cFrom.type instanceof types.IntType;
-		boolean ctoIsInt =  cto.type instanceof types.IntType;
-		if( !cFromIsInt && !ctoIsInt){//det sjekker om det er typen Integer
-			Main.error("Constant maa vare en Integer");
-		}
-		
-		types.Type i = cFrom.type;
-		int lo = 0, hi = 0;
-		if(cFrom.unsigC.numliteral != null){
-			lo = cFrom.unsigC.numliteral.i;
-		}
-		if(cto.unsigC.numliteral != null){
-			hi = cto.unsigC.numliteral.i;
-		}
-		this.type = t.type;
-		//type =new types.ArrayType(e,i,lo,hi);
-	}
-	@Override
-	void genCode(CodeFile f) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	
-	
+    }
+
+
+    @Override public int size() {
+	return (hiLim-loLim+1)*elemType.size();
+    }
 }
